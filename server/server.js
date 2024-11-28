@@ -18,7 +18,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: ["https://nizcare-task-managment-main-frontend.onrender.com"],
+    origin: ["https://nizcare-task-frontend.onrender.com"],
     methods: ["GET", "POST", "DELETE", "PUT"],
     credentials: true,
   })
